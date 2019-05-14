@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Incrementer from './App';
+import Incrementer from './Incrementer';
 
 describe('incrementer component', () => {
   it('matches snapshot', () => {
@@ -10,8 +10,8 @@ describe('incrementer component', () => {
   
   it('increments counter on button press', () => {
     const wrapper = shallow(<Incrementer />);
-    wrapper.find('myButton').simulate('click');
-    expect(wrapper.state('count').toEqual(1));
+    wrapper.find('button').at(0).simulate('click');
+    expect(wrapper.state('count')).toEqual(1);
   });
 });
 

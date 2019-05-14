@@ -1,3 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`incrementer component matches snapshot 1`] = `<Incrementer />`;
+exports[`incrementer component matches snapshot 1`] = `
+<Fragment>
+  <div>
+    Times pressed: 
+    0
+     
+  </div>
+  <button
+    className="myButton"
+    onClick={[Function]}
+  >
+    Increment
+  </button>
+</Fragment>
+`;
