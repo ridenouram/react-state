@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 
 export default class ColorPicker extends PureComponent {
   state = {
-    color: ''
+    color: 'white'
   };
 
   
@@ -32,10 +32,10 @@ export default class ColorPicker extends PureComponent {
     
     return (
       <>
-        <button style={this.red} onClick={this.colorClick.bind(null, 'red')}>Red</button>
-        <button style={this.yellow} onClick={this.colorClick('yellow')}>Yellow</button>
-        <button style={this.blue} onClick={this.colorClick('blue')}>Blue</button>
-        <div style={this.red}></div>
+        <button style={this.red} onClick={() => this.colorClick('red')}>Red</button>
+        <button style={this.yellow} onClick={() => this.colorClick('yellow')}>Yellow</button>
+        <button style={this.blue} onClick={() => this.colorClick('blue')}>Blue</button>
+        <div style={this[color]}></div>
       </>
     );
   }
