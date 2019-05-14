@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import styles from './ColorPicker.css';
 
 export default class ColorPicker extends PureComponent {
   state = {
