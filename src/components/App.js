@@ -21,4 +21,9 @@ export default class App extends PureComponent {
       </>
     );
   }
+
+  componentDidUpdate() {
+    const { color } = this.state;
+    console.log(color);
+  }
 }
