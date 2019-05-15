@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RandomColor component matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "background": "",
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+/>
+`;
