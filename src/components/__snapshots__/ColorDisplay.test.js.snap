@@ -5,7 +5,7 @@ exports[`ColorDisplay component matches snapshot 1`] = `
   style={
     Object {
       "backgroundColor": "red",
-      "height": "100px1",
+      "height": "100px",
       "width": "100px",
     }
   }
